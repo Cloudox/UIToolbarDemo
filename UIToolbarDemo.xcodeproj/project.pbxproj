@@ -15,6 +15,11 @@
 		B82CC1561DE46D03000DBEE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82CC1541DE46D03000DBEE3 /* LaunchScreen.storyboard */; };
 		B82CC1611DE46D03000DBEE3 /* UIToolbarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B82CC1601DE46D03000DBEE3 /* UIToolbarDemoTests.m */; };
 		B82CC16C1DE46D03000DBEE3 /* UIToolbarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B82CC16B1DE46D03000DBEE3 /* UIToolbarDemoUITests.m */; };
+		B82CC17B1DE47100000DBEE3 /* IDAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B82CC17A1DE47100000DBEE3 /* IDAddressPickerView.m */; };
+		B82CC17D1DE47263000DBEE3 /* keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B82CC17C1DE47263000DBEE3 /* keyboard@2x.png */; };
+		B82CC17F1DE472E0000DBEE3 /* address.plist in Resources */ = {isa = PBXBuildFile; fileRef = B82CC17E1DE472E0000DBEE3 /* address.plist */; };
+		B82CC1821DE478E1000DBEE3 /* keyboardToolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = B82CC1801DE478E1000DBEE3 /* keyboardToolbar.png */; };
+		B82CC1831DE478E1000DBEE3 /* pickerToolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = B82CC1811DE478E1000DBEE3 /* pickerToolbar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		B82CC1671DE46D03000DBEE3 /* UIToolbarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIToolbarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82CC16B1DE46D03000DBEE3 /* UIToolbarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIToolbarDemoUITests.m; sourceTree = "<group>"; };
 		B82CC16D1DE46D03000DBEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82CC1791DE47100000DBEE3 /* IDAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDAddressPickerView.h; sourceTree = "<group>"; };
+		B82CC17A1DE47100000DBEE3 /* IDAddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDAddressPickerView.m; sourceTree = "<group>"; };
+		B82CC17C1DE47263000DBEE3 /* keyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard@2x.png"; sourceTree = "<group>"; };
+		B82CC17E1DE472E0000DBEE3 /* address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = address.plist; sourceTree = "<group>"; };
+		B82CC1801DE478E1000DBEE3 /* keyboardToolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboardToolbar.png; sourceTree = "<group>"; };
+		B82CC1811DE478E1000DBEE3 /* pickerToolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickerToolbar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +96,8 @@
 				B82CC15F1DE46D03000DBEE3 /* UIToolbarDemoTests */,
 				B82CC16A1DE46D03000DBEE3 /* UIToolbarDemoUITests */,
 				B82CC1441DE46D03000DBEE3 /* Products */,
+				B82CC1801DE478E1000DBEE3 /* keyboardToolbar.png */,
+				B82CC1811DE478E1000DBEE3 /* pickerToolbar.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,10 +118,14 @@
 				B82CC14A1DE46D03000DBEE3 /* AppDelegate.m */,
 				B82CC14C1DE46D03000DBEE3 /* ViewController.h */,
 				B82CC14D1DE46D03000DBEE3 /* ViewController.m */,
+				B82CC1791DE47100000DBEE3 /* IDAddressPickerView.h */,
+				B82CC17A1DE47100000DBEE3 /* IDAddressPickerView.m */,
 				B82CC14F1DE46D03000DBEE3 /* Main.storyboard */,
 				B82CC1521DE46D03000DBEE3 /* Assets.xcassets */,
 				B82CC1541DE46D03000DBEE3 /* LaunchScreen.storyboard */,
 				B82CC1571DE46D03000DBEE3 /* Info.plist */,
+				B82CC17C1DE47263000DBEE3 /* keyboard@2x.png */,
+				B82CC17E1DE472E0000DBEE3 /* address.plist */,
 				B82CC1461DE46D03000DBEE3 /* Supporting Files */,
 			);
 			path = UIToolbarDemo;
@@ -247,7 +264,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B82CC1561DE46D03000DBEE3 /* LaunchScreen.storyboard in Resources */,
+				B82CC17F1DE472E0000DBEE3 /* address.plist in Resources */,
+				B82CC1821DE478E1000DBEE3 /* keyboardToolbar.png in Resources */,
+				B82CC17D1DE47263000DBEE3 /* keyboard@2x.png in Resources */,
 				B82CC1531DE46D03000DBEE3 /* Assets.xcassets in Resources */,
+				B82CC1831DE478E1000DBEE3 /* pickerToolbar.png in Resources */,
 				B82CC1511DE46D03000DBEE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B82CC17B1DE47100000DBEE3 /* IDAddressPickerView.m in Sources */,
 				B82CC14E1DE46D03000DBEE3 /* ViewController.m in Sources */,
 				B82CC14B1DE46D03000DBEE3 /* AppDelegate.m in Sources */,
 				B82CC1481DE46D03000DBEE3 /* main.m in Sources */,
